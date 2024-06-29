@@ -11,6 +11,8 @@ require(tigerstats)
 triUmp <-read.csv(file="triUmpsal.csv",header=TRUE)
 
 druggies = select(triUmp, c(treatment, infected, DrugUser))
+druggies = filter(druggies, DrugUser == "yes")
+
 
 ```
 
@@ -26,9 +28,11 @@ $H_A$:The drug is effective to drugusers
 
 # Methods
 
-treatment is a categorical variable
-infected is a numerical 
-
+ treatment is a categorical variable  
+ infected is a numerical  
+ so i use the cat~num helper file
+ 
+ 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method. Discuss what data manipulations may be needed for example subsetting or other binning procedures and what sort of graphical displays and inferential tools will be used!-->
 
 # Results
