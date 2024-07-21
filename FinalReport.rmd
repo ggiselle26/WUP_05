@@ -49,7 +49,7 @@ barchartGC(~infected + treatment,data=druggies, type="percent")
 ```
  
  
- This shows that the people who took the placebo had more of a reaction to the drug users who didnt take the treatment 
+ The graph  shows that the people who took the placebo had more of a reaction compared to the drug users who didnt have symptoms of being effective  
  
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method. Discuss what data manipulations may be needed for example subsetting or other binning procedures and what sort of graphical displays and inferential tools will be used!-->
 
@@ -64,7 +64,7 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
-This data shows that the people who to the placebo had 75 percent moreof a reaction to the treatment  than the drug users who didnt had a 24 percent
+This data shows that the people who to the placebo had 75 percent more of a reaction to the treatment  than the drug users who didnt had a 24 percent
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
@@ -87,3 +87,10 @@ The odds ratio is 0.4:1 meaning that the drug users who took the placebo are 0.4
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+The graph indicates that individuals who received the placebo experienced a stronger reaction compared to drug users who did not exhibit effectiveness symptoms. Specifically, those who took the placebo showed a 75% higher reaction rate than drug users who did not display effectiveness, which was at 24%.  
+ 
+The chi-square test yielded a p-value of 0.0000001, significantly below the threshold of 0.05. Similarly, the Fisher's exact test produced a p-value of 0.00000004, also below 0.05, leading us to reject the null hypothesis.  
+
+The odds ratio of 0.4:1 suggests that drug users who received the placebo are 0.4 times less likely to be effective compared to those who did not receive it.
+
